@@ -1,0 +1,16 @@
+.TopCitiesInner {
+    max-width: 1000px;
+    align-self: start;
+}
+
+.topCitiesList {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.topCitiesItem {
+    text-decoration: none;
+    padding: 10px;
+}

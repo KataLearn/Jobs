@@ -1,0 +1,24 @@
+
+.titleSearchInner {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 4px !important;
+}
+
+.vacationInner {
+    padding: 24px;
+    margin: 0 auto;
+}
+.searchTitle {
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+}
+.searchText{
+    color: Gray;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    padding: 0;
+    text-align: start;
+}

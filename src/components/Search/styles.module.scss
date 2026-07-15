@@ -1,0 +1,26 @@
+
+
+.searchInner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  max-width: 508px;
+  box-sizing: border-box;
+  height: 42px;
+}
+
+.searchHeight42 {
+  height: 42px !important; 
+}
+
+.searchButton {
+    background-color: #4263EB;
+    color: #fff;
+    padding-inline: 22px;
+    text-align: center;
+    height: 100%;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+}

@@ -1,0 +1,43 @@
+.searchTagInner {
+    padding: 24px;
+    background-color: #FFFFFF;
+    width: 317px;
+    border-radius: 12px;
+}
+.groupPills {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4px !important;
+    margin-top: 12px;
+}
+.groupInput {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between !important;
+    align-items: center;
+    gap: 8px !important;
+    
+}
+.btnSearch {
+    // background-color: #fff;
+    width: 30px;
+    height: 30px;
+    background-color: #228BE6;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+}
+.tagsInput {
+    width: 227px;
+    padding: 4px 10px;
+}
+
+.tagTitle {
+    font-size: 14px !important;
+    margin-bottom: 12px !important;
+    text-align: left;
+    line-height: 20px !important;
+    font-weight: 600 !important;
+}

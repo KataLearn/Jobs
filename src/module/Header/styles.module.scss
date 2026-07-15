@@ -1,0 +1,61 @@
+
+
+.vacationLink {
+  position: relative;
+
+
+  &::after {
+    content: '';
+    height: 6px;
+    width: 6px;
+    background-color: #364FC7;
+    position: absolute;
+    top: 50%;
+    right: -1px;
+    border-radius: 50%;
+  }
+}
+
+
+.aboutMe {
+  color: Gray !important;
+  span {
+    margin: 0;
+  }
+}
+
+.header {
+  height: 60px;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px;
+  text-align: center;
+  max-width: 1440px !important;
+}
+
+.logo {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.vacationLink,
+.aboutMe {
+  width: auto !important;
+  white-space: nowrap;
+}

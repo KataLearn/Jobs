@@ -1,0 +1,39 @@
+.skeleton {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 24px;
+    width: 659px !important;
+    height: 216px !important;
+    // gap: 16px;
+}
+.loader {
+    background-color: #F3F5FA;
+    color: #CED4DA;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    padding: 16px 10px;
+    padding-top: 16px;
+    margin-top: 16px;
+    border-radius: 8px;
+}
+.cards {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 !important;
+    padding: 0 !important;
+    padding-bottom: 24px !important;
+}
+
+.innerJob {
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex;
+    flex-direction: column;
+}
+.pagination {
+    align-self: center !important;
+}
