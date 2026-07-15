@@ -84,22 +84,3 @@ export default vacanciesSlice.reducer;
 
 
 
-
-// toggleCity(state, action: PayloadAction<string>) {
-//     const city = action.payload;
-//     const index = state.filters.cities.indexOf(city);
-//     if (index === -1) {
-//         state.filters.cities.push(city);
-//     } else {
-//         state.filters.cities.splice(index, 1);
-//     }
-// },
-// toggleTags(state, action: PayloadAction<string>) {
-//     const tag = action.payload;
-//     const index = state.filters.tags.indexOf(tag);
-//     if (index === -1) {
-//         state.filters.tags.push(tag);
-//     } else {
-//         state.filters.tags.splice(index, 1);
-//     }
-// },
